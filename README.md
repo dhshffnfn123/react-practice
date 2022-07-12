@@ -1,3 +1,7 @@
+# React Practice
+
+> react 복습 Repo\_ 인프런 참조
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
