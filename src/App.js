@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Box from "./components/Box";
 
 function App() {
@@ -42,6 +42,11 @@ function App() {
     let final = itemArray[randomItem];
     return final;
   };
+
+  useEffect(() => {
+    console.log("useEffect");
+    // == componentDIdMount
+  });
 
   return (
     <div>
