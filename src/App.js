@@ -20,3 +20,8 @@ function App() {
 }
 
 export default App;
+
+// json-server
+//  - json-server 를 설치하고 db.json에 데이터를 만들어준다.  이 떄 root 폴더에 넣어야한다.
+//  - 터미널에 json-server --watch db.json --port 5000를 타이핑해 실행한다. (포트는 리액트앱과 겹치지 않게 만든다.)
+//  - 실행이 안되면 npx json-server --watch db.json --port 5000 를 입력한다.
