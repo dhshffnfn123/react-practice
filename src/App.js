@@ -5,9 +5,11 @@ import ProductPage from "./components/page/ProductPage";
 import ProductDetailPage from "./components/page/ProductDetailPage";
 import LoginPage from "./components/page/LoginPage";
 import NavBar from "./components/NavBar";
+import { useParams } from "react-router-dom";
 
 function App() {
   const [auth, setAuth] = useState(false);
+  const params = useParams();
 
   return (
     <div>
