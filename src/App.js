@@ -38,3 +38,6 @@ export default App;
 // private Route
 // 상태에 따른 렌더링을 할시 페이지 보호 기능.
 // useNavigator 등을 이용하여 상태에 따라 url을 설정해준다.
+
+// loading
+// api 호출 시 useState를 사용해 호출 전 true, 호출 후 false로 하여 로딩을 구현한다.
