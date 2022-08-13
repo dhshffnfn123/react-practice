@@ -41,3 +41,6 @@ export default App;
 
 // loading
 // api 호출 시 useState를 사용해 호출 전 true, 호출 후 false로 하여 로딩을 구현한다.
+
+// Redux
+//
