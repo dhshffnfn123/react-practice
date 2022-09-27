@@ -1,1 +1,1 @@
-const TEST_ACTION = "SD";
+const TEST_ACTION = "up/INCREASE";
